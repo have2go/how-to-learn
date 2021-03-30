@@ -195,9 +195,6 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-}
-
-.feynman__subtitle {
   margin: 0;
 }
 
@@ -309,7 +306,6 @@
 .footer__column-links {
   padding: 0 0 16px;
   margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 
