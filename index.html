@@ -46,7 +46,8 @@
 
           <li class="table__cell">
             <h3 class="table__heading">2.1 миллиарда</h3>
-            <p class="table__text">Число нуждающихся в повышении квалификации <br><br> Всемирный Банк, 2017</p>
+            <p class="table__text">Число нуждающихся в повышении квалификации</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </li>
 
           <li class="table__cell">
@@ -61,7 +62,8 @@
 
           <li class="table__cell">
             <h3 class="table__heading">420 миллионов</h3>
-            <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства <br><br> Всемирный Банк, 2017</p>
+            <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </li>
 
           <li class="table__cell">
@@ -149,11 +151,11 @@
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__columns footer__column_content_copyright">
+        <div class="footer__column footer__column_content_copyright"> <!-- Заменил footer__columns(контейнер для колонок) на footer__column (класс для самих колнок, какую конкретно колонку берем определяет уже модификатор content с различными значениями)-->
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy; 2020. Алексей Дегтярев</p>
         </div>
-        <nav class="footer__columns footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
             <li><a href="https://praktikum.yandex.ru/" class="footer__column-link" target="_blank">Главная</a></li>
@@ -161,15 +163,21 @@
             <li><a href="#" class="footer__column-link">Наставники</a></li>
           </ul>
         </nav>
-        <nav class="footer__columns footer__column_content_social">
+        <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
+            <li>
             <a href="https://www.facebook.com/yandex.praktikum/" class="footer__column-link" target="_blank">
               <img src="./images/facebook_color_white.svg" alt="Иконка фейсбук" class="footer__social-icon"> Facebook</a>
+            </li>
+            <li>
             <a href="https://vk.com/yandex.praktikum" class="footer__column-link" target="_blank">
               <img src="./images/vk_color_white.svg" alt="Иконка вк" class="footer__social-icon"> Вконтакте</a>
+            </li>
+            <li>
             <a href="#" class="footer__column-link">
               <img src="./images/instagram_color_white.svg" alt="Иконка инстаграм" class="footer__social-icon"> Instagram</a>
+            </li>
           </ul>
         </nav>
       </div>

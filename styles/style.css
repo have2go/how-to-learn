@@ -157,13 +157,13 @@
 }
 
 .table__heading {
-  margin: 0 0 20px 0;
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
 }
 
 .table__text {
-  margin: 0;
+  margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
 }
@@ -261,8 +261,9 @@
 }
 
 .footer__column_content_copyright {
+  display: flex;
   flex-direction: column;
-  margin: 0;
+  justify-content: space-between;
   flex-basis: 711px;
 }
 
@@ -280,6 +281,10 @@
   padding: 18px 0;
   line-height: 25px;
   font-size: 18px;
+}
+
+.footer__column {
+
 }
 
 .footer__column_content_info {
