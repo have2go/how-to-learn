@@ -4,4 +4,11 @@
   color: white;
   line-height: 30px;
   font-size: 18px;
+  /*Два свойства ниже я тоже перенес из .footer__column-links*/
+  opacity: 1;
+  transition: opacity .1s linear;
+}
+
+.footer__column-link:hover {
+  opacity: .6;
 }
